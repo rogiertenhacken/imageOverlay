@@ -1,21 +1,21 @@
 h2 {
-  font-variant: small-caps;
+  font-size: 2rem;
   font-weight: 600;
+  font-variant: small-caps;
 }
 
 h5 {
-  font-variant: small-caps;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-top: 20px;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 20px 0 50px 15px;
+
   color: #fff;
   background-color: #000;
   padding: 10px 10px;
   width: 300px;
   border-radius: 100px;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:hover {
@@ -30,43 +30,45 @@ h5:hover {
 
 .container {
   position: relative;
-  width: 50%;
+  float: left;
+  width: 33%;
 }
 
 .image {
-  opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  opacity: 1;
+  transition: .6s ease;
   backface-visibility: hidden;
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+.textHold {
+  text-align: center;
+  background-color: #000;
+  height: 100%;
+  width: 94%;
   position: absolute;
   top: 50%;
   left: 50%;
   right: 0;
-  height: 100%;
-  width: 96%;
+  transition: .6s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: #000;
+
 }
 
-.container:hover .middle {
+.container:hover .textHold {
   opacity: 0.8;
 }
 
 .hoverText {
-  color: #fff;
-  font-size: 14px;
+  color: #ffffff;
+  font-size: 0.8rem;
   font-weight: 100;
-  padding: 18% 25px;
+  line-height: normal;
   width: 100%;
   height: auto;
+  padding: 14% 25px;
 }
