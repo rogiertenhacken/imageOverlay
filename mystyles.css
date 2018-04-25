@@ -1,3 +1,7 @@
+body {
+  margin: 5px;
+}
+
 h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -28,10 +32,22 @@ h5:hover {
   border: 1px solid #000;
 }
 
-.container {
+.card-deck .card {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.card-deck {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+.card-img-top {
+  border-radius: 0px;
+}
+
+.textContain {
   position: relative;
-  float: left;
-  width: 33%;
 }
 
 .image {
@@ -47,7 +63,7 @@ h5:hover {
   text-align: center;
   background-color: #000;
   height: 100%;
-  width: 94%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,7 +74,7 @@ h5:hover {
   -ms-transform: translate(-50%, -50%);
 }
 
-.container:hover .textHold {
+.textContain:hover .textHold {
   opacity: 0.8;
 }
 
@@ -69,5 +85,5 @@ h5:hover {
   line-height: normal;
   width: 100%;
   height: auto;
-  padding: 14% 25px;
+  padding: 15% 25px;
 }
