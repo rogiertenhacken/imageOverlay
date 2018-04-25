@@ -1,9 +1,10 @@
 body {
   margin: 5px;
+  font-size:
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
   font-variant: small-caps;
 }
@@ -13,17 +14,12 @@ h5 {
   font-weight: 600;
   font-variant: small-caps;
   text-align: center;
-  margin: 20px 0 50px 15px;
-
+  margin: 20px 0 50px 0px;
   color: #fff;
   background-color: #000;
   padding: 10px 10px;
   width: 300px;
   border-radius: 100px;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 h5:hover {
@@ -32,15 +28,22 @@ h5:hover {
   border: 1px solid #000;
 }
 
-.card-deck .card {
-  margin-right: 0px;
-  margin-left: 5px;
+a:hover {
+  text-decoration: none;
 }
 
-.card-deck {
+.card-deck .card {
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 0px;
+  border: none;
+}
+
+/*card-deck {
   margin-right: 5px;
   margin-left: 0px;
 }
+*/
 
 .card-img-top {
   border-radius: 0px;
@@ -50,15 +53,7 @@ h5:hover {
   position: relative;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-  opacity: 1;
-  transition: .6s ease;
-  backface-visibility: hidden;
-}
-
+/*sets the hover and styling of hover*/
 .textHold {
   text-align: center;
   background-color: #000;
@@ -74,16 +69,30 @@ h5:hover {
   -ms-transform: translate(-50%, -50%);
 }
 
+/*controls the opacity of background on hover*/
 .textContain:hover .textHold {
   opacity: 0.8;
 }
 
+/*controls the styling of text on hover*/
 .hoverText {
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 1vw;
   font-weight: 100;
   line-height: normal;
   width: 100%;
   height: auto;
-  padding: 15% 25px;
+  padding: 12% 10%;
+}
+
+@media only screen and (max-width: 574px) {
+    .hoverText {
+      font-size: 2vw;
+    }
+    h2 {
+      font-size: 4vw;
+    }
+    .hoverText {
+      padding: 20% 10%;
+    }
 }
