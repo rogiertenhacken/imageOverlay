@@ -56,7 +56,6 @@ h5:hover {
   opacity: 0;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-
 }
 
 .container:hover .textHold {
