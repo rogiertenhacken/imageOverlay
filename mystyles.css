@@ -1,6 +1,5 @@
 body {
   margin: 5px;
-  font-size:
 }
 
 h2 {
@@ -38,12 +37,6 @@ a:hover {
   border-radius: 0px;
   border: none;
 }
-
-/*card-deck {
-  margin-right: 5px;
-  margin-left: 0px;
-}
-*/
 
 .card-img-top {
   border-radius: 0px;
@@ -86,11 +79,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 574px) {
-    .hoverText {
-      font-size: 2vw;
-    }
     h2 {
       font-size: 4vw;
+    }
+    .hoverText {
+      font-size: 2vw;
     }
     .hoverText {
       padding: 20% 10%;
