@@ -7,3 +7,5 @@ Using html / css and bootstrap for the cards.
 working example:
 
 https://draftwork.nl/imageoverlay/index.html
+
+ToDo: make an on touch event for mobile devices
